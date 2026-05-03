@@ -11,7 +11,7 @@ The dummy data is in **src/main/java/resources/data.sql**
 2. JDK 21
 
 **Steps**
-Clone the repo
-Import the project 
-Change DB connection url, db username, db password
-Run the project (http://localhost:8080/homepage)
+1. Clone the repo
+2. Import the project 
+3. Change DB connection url, db username, db password
+4. Run the project (http://localhost:8080/homepage)
