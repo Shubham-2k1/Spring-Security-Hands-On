@@ -12,4 +12,9 @@ public class login {
     public ResponseEntity<String> login(){
         return ResponseEntity.ok("Login Success!");
     }
+
+    @GetMapping("/loginFail")
+    public ResponseEntity<String> loginFail(){
+        return ResponseEntity.ok("Login Denied");
+    }
 }
