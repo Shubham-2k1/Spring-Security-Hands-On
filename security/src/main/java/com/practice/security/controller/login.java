@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class login {
 
 
-    @GetMapping("/loginSucess")
+    @GetMapping("/loginSuccess")
     public ResponseEntity<String> login(){
         return ResponseEntity.ok("Login Success!");
     }
